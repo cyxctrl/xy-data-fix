@@ -1,0 +1,13 @@
+# curl http://127.0.0.1:8080/ofc/transaction/updateFulfillmentOrder -X POST -H "Content-type:application/json" -d '{"requestList":[{"fulfillmentOrderId":"FF1567369496300232704","clearFulfillmentError":true}]}';
+curl http://127.0.0.1:8080/ofc/transaction/updateFulfillmentOrder -X POST -H "Content-type:application/json" -d '{"requestList":[{"fulfillmentOrderId":"FF1567369491392950272","clearFulfillmentError":true}]}';
+curl http://127.0.0.1:8080/ofc/transaction/updateFulfillmentOrder -X POST -H "Content-type:application/json" -d '{"requestList":[{"fulfillmentOrderId":"FF1567063074236772352","clearFulfillmentError":true}]}';
+curl http://127.0.0.1:8080/ofc/transaction/updateFulfillmentOrder -X POST -H "Content-type:application/json" -d '{"requestList":[{"fulfillmentOrderId":"FF1567063035112304640","clearFulfillmentError":true}]}';
+curl http://127.0.0.1:8080/ofc/transaction/updateFulfillmentOrder -X POST -H "Content-type:application/json" -d '{"requestList":[{"fulfillmentOrderId":"FF1567063024257445888","clearFulfillmentError":true}]}';
+curl http://127.0.0.1:8080/ofc/transaction/updateFulfillmentOrder -X POST -H "Content-type:application/json" -d '{"requestList":[{"fulfillmentOrderId":"FF1567063015243870208","clearFulfillmentError":true}]}';
+curl http://127.0.0.1:8080/ofc/transaction/updateFulfillmentOrder -X POST -H "Content-type:application/json" -d '{"requestList":[{"fulfillmentOrderId":"FF1567062979692965888","clearFulfillmentError":true}]}';
+curl http://127.0.0.1:8080/ofc/transaction/updateFulfillmentOrder -X POST -H "Content-type:application/json" -d '{"requestList":[{"fulfillmentOrderId":"FF1567062978057187328","clearFulfillmentError":true}]}';
+curl http://127.0.0.1:8080/ofc/transaction/updateFulfillmentOrder -X POST -H "Content-type:application/json" -d '{"requestList":[{"fulfillmentOrderId":"FF1567062972982063104","clearFulfillmentError":true}]}';
+curl http://127.0.0.1:8080/ofc/transaction/updateFulfillmentOrder -X POST -H "Content-type:application/json" -d '{"requestList":[{"fulfillmentOrderId":"FF1567062938592980992","clearFulfillmentError":true}]}';
+curl http://127.0.0.1:8080/ofc/transaction/updateFulfillmentOrder -X POST -H "Content-type:application/json" -d '{"requestList":[{"fulfillmentOrderId":"FF1567062933975035904","clearFulfillmentError":true}]}';
+curl http://127.0.0.1:8080/ofc/transaction/updateFulfillmentOrder -X POST -H "Content-type:application/json" -d '{"requestList":[{"fulfillmentOrderId":"FF1567062934025383936","clearFulfillmentError":true}]}';
+curl http://127.0.0.1:8080/ofc/transaction/updateFulfillmentOrder -X POST -H "Content-type:application/json" -d '{"requestList":[{"fulfillmentOrderId":"FF1567062934100865024","clearFulfillmentError":true}]}'
