@@ -1,4 +1,5 @@
 let data = [
+
 ]
 
 const log = console.log.bind(console)
@@ -9,6 +10,7 @@ for (let orderId of data) {
     let cmd = `curl --location --request POST 'http://127.0.0.1:8080/facade/settlement/splitBySettlement' --header 'Content-Type: application/json' --data-raw '{"settlementId": "${orderId}","splitChannel": 1,"source": 1,"bizScene": "${bizScene}"}'`
     // log(cmd)
     cmds.push(cmd)
+    cmds.push("sleep 1")
 }
 
 log(cmds.length)
