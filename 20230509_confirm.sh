@@ -1,5 +1,3 @@
-curl http://127.0.0.1:8080/order/transaction/confirm -X POST -H "Content-type:application/json" -d '{"orderId":"1000007547588","buyerId":0}';
-curl http://127.0.0.1:8080/order/transaction/confirm -X POST -H "Content-type:application/json" -d '{"orderId":"1000222994623","buyerId":0}';
 curl http://127.0.0.1:8080/order/transaction/confirm -X POST -H "Content-type:application/json" -d '{"orderId":"1000223001070","buyerId":0}';
 curl http://127.0.0.1:8080/order/transaction/confirm -X POST -H "Content-type:application/json" -d '{"orderId":"1000223727589","buyerId":0}';
 curl http://127.0.0.1:8080/order/transaction/confirm -X POST -H "Content-type:application/json" -d '{"orderId":"1000224144000","buyerId":0}';
