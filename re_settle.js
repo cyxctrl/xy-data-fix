@@ -13,5 +13,4 @@ for (let orderId of data) {
     cmds.push("sleep 1")
 }
 
-log(cmds.length)
 log(cmds.join(';\n'))
